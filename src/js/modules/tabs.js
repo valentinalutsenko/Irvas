@@ -1,7 +1,7 @@
 const tabs = (headerSelector, tabSelector, contentSelector, activeClass, display = 'block') => {
-    const header = document.querySelector(headerSelector),
-          tab = document.querySelectorAll(tabSelector),
-          content = document.querySelectorAll(contentSelector);
+    const header = document.querySelector(headerSelector);
+    const tab = document.querySelectorAll(tabSelector);
+    const content = document.querySelectorAll(contentSelector);
 
     function hideTabContent() {
         content.forEach(item => {

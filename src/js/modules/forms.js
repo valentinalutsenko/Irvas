@@ -54,18 +54,18 @@ const forms = (state) => {
 
     
             
-            postData('assets/server.php', formData)
-                .then(res => {
-                    statusMessage.textContent = message.success;
-                })
-                .catch(() => statusMessage.textContent = message.failure)
-                .finally(() => {
-                    clearInputs();
-                    hideModal();
-                    setTimeout(() => {
-                        statusMessage.remove();
-                    }, 1000);
-                });
+        postData('assets/server.php', formData)
+            .then(res => {
+                statusMessage.textContent = message.success;
+            })
+            .catch(() => statusMessage.textContent = message.failure)
+            .finally(() => {
+                clearInputs();
+                hideModal();
+                setTimeout(() => {
+                    statusMessage.remove();
+                }, 1000);
+            });
         });
     });
 };

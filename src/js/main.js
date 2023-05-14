@@ -7,10 +7,10 @@ import timer from './modules/timer';
 import image from './modules/images';
 
 
-///Отвечает за то, что скирпты начинают выполняться тлько тогда, когда DOM структурв на стр будет готова.///
 
 window.addEventListener('DOMContentLoaded', () => {
     'use strict'
+    
     let deadline = '2023-06-20';
     let modalState = {};
 
