@@ -15597,7 +15597,6 @@ const tabs = (headerSelector, tabSelector, contentSelector, activeClass, display
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (tabs);
-``;
 
 /***/ }),
 
