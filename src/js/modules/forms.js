@@ -51,9 +51,7 @@ const forms = (state) => {
             document.body.classList.remove('modal-open');
         }, 2000)
     };
-
-    
-            
+   
         postData('assets/server.php', formData)
             .then(res => {
                 statusMessage.textContent = message.success;
@@ -69,6 +67,5 @@ const forms = (state) => {
         });
     });
 };
-
 
 export default forms;

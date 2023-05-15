@@ -35,4 +35,5 @@ const tabs = (headerSelector, tabSelector, contentSelector, activeClass, display
         }
     });
 };
-export default tabs;``
+
+export default tabs;
